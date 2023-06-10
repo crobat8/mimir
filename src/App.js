@@ -7,7 +7,7 @@ import "./style.scss"
 import About from './componets/About';
 import Projects from './componets/Projects';
 import Contact from './componets/Contact';
-import { AiFillGithub,AiFillLinkedin,AiFillFacebook } from 'react-icons/ai';
+import { AiFillGithub,AiFillLinkedin,AiFillFacebook,AiFillInstagram } from 'react-icons/ai';
 
 
 function App() {
@@ -27,7 +27,7 @@ function App() {
 
 }
 
-let iconStyles = { color: "white", fontSize: "1.5em" };
+let iconStyles = { color: "#e2f1ff", fontSize: "1.5em" };
   return (
     
     <div className="Landing">
@@ -58,6 +58,9 @@ let iconStyles = { color: "white", fontSize: "1.5em" };
           </a>
           <a href="https://www.facebook.com/ben.malquist/">
             <AiFillFacebook style={iconStyles}/>
+          </a>
+          <a href="https://www.instagram.com/benmalquist/">
+            <AiFillInstagram style={iconStyles}/>
           </a>
         </div>
       </header>
