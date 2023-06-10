@@ -1,0 +1,65 @@
+
+//colors that go with logo
+$color1: #236c93;
+$color2: #3dbaff;
+$color3: #339bd4;
+$color4: #e2f1ff;
+$color5: #194e6a;
+$color6: #2d8abc;
+
+
+
+
+
+.Landing{
+    background-color: aqua;
+    height: auto;
+    .TopBar{
+        background-color: $color4;
+        padding: 15px; 
+        display: grid;
+        grid-template-columns: 1fr 3fr 2fr;
+
+        .Logo{
+            background-color: $color4;
+            
+            padding: 5px;
+            img{
+                max-width: 100%;
+                max-height: 100%;
+                vertical-align: auto;
+            }
+        }
+        .Navigation{
+            
+            text-align: center;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            button{
+                background-color: #194e6a;
+                border: none;
+                
+                
+            }
+            button:hover {
+                background-color: #3dbaff;
+            }
+            button:active{
+                transform: translate(0,3px);
+            }
+        }
+        .Links{
+            background-color: #194e6a;
+            text-align: center;
+            padding-top: 15px;
+        }
+    }
+    .Page{
+        background-color: blue;
+        padding: 20px;
+    }
+    .Information{
+        background-color: yellow;
+        padding: 20px;
+    }
+}
