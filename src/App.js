@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 
-import logo from "./img/portfolio_LOGO2.png"
+import logo from "./img/portfolio_LOGO3.png"
 
 import "./style.scss"
 import About from './componets/About';
