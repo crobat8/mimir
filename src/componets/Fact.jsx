@@ -15,13 +15,7 @@ const Fact = (props) =>{
                 
             </div>
             <div className="Right">
-                {/*image here of the topic discussed below is temp for testing*/}
-                <h2>
-                    {props.title}
-                </h2>
-                <p>
-                    {props.information}
-                </p>
+                <img src={props.pic}/>
             </div>
             
         </article>

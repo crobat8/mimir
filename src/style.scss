@@ -41,6 +41,7 @@ $color6: #2d8abc;
                 background-color: #194e6a;
                 border: none;
                 color: #e2f1ff;
+                transition: background-color .5s;
                 
             }
             button:hover {
@@ -95,6 +96,30 @@ $color6: #2d8abc;
                 display: grid;
                 grid-template-columns: 10fr 1fr 10fr ;
                 padding-right:20px;
+                .Right{
+                    margin: auto;
+                    img{
+                        height: 80%;
+                        width: 80%;
+                        padding: 20px;
+                    }
+                }
+            }
+        }
+        .ProjectPage{
+            color: #e2f1ff;
+            .Project{
+                display: grid;
+                grid-template-columns: 10fr 1fr 10fr ;
+                padding-right:20px;
+                .right{
+                    img{
+                        max-height: 400px;
+                    }
+                    p{
+                        color: #e2f1ff;
+                    }
+                }
             }
         }
     }
