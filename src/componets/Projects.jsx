@@ -37,7 +37,7 @@ const Projects = () =>{
                 testEmail="test2@gmail.com"
                 testPassword="testtest"
                 image={PartyUp}
-                link="https://partyup-76d1a.web.app/"
+                link="https://partyup.social/"
             />
         </div>
     );
